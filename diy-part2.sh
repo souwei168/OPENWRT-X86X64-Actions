@@ -66,4 +66,3 @@ git clone --depth=1 https://github.com/ysc3839/luci-proto-minieap
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner
 git clone --depth=1 https://github.com/riverscn/openwrt-iptvhelper
 popd
-
