@@ -63,4 +63,5 @@ git clone --depth=1 https://github.com/riverscn/openwrt-iptvhelper
 git clone --depth=1 https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 git clone --depth=1 https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
 git clone --depth=1 https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
+git clone --depth=1 https://github.com/BoringCat/luci-app-mentohust
 popd
