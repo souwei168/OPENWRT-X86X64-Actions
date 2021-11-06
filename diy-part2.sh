@@ -54,15 +54,13 @@ git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-ipt
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
-#后面自己加的软件包
-git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
-git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
-git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
-
 #新加入插件第二部分
 mkdir package/diy2
 pushd package/diy2
 git clone --depth=1 https://github.com/ysc3839/luci-proto-minieap
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner
 git clone --depth=1 https://github.com/riverscn/openwrt-iptvhelper
+git clone --depth=1 https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
+git clone --depth=1 https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
+git clone --depth=1 https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
 popd
