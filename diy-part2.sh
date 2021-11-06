@@ -64,4 +64,5 @@ git clone --depth=1 https://github.com/frainzy1477/luci-app-clash.git package/lu
 git clone --depth=1 https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
 git clone --depth=1 https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
 git clone --depth=1 https://github.com/BoringCat/luci-app-mentohust
+git clone --depth=1 https://github.com/kuoruan/luci-app-kcptun
 popd
