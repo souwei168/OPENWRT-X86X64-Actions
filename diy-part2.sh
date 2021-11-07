@@ -60,9 +60,9 @@ pushd package/diy2
 git clone --depth=1 https://github.com/ysc3839/luci-proto-minieap
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner
 git clone --depth=1 https://github.com/riverscn/openwrt-iptvhelper
-git clone --depth=1 https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
-git clone --depth=1 https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
-git clone --depth=1 https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
+git clone --depth=1 https://github.com/frainzy1477/luci-app-clash
+git clone --depth=1 https://github.com/jefferymvp/luci-app-koolproxyR
+git clone --depth=1 https://github.com/lisaac/luci-app-dockerman
 git clone --depth=1 https://github.com/BoringCat/luci-app-mentohust
 git clone --depth=1 https://github.com/kuoruan/luci-app-kcptun
 git clone --depth=1 https://github.com/jerrykuku/luci-app-ttnode
