@@ -66,5 +66,4 @@ git clone --depth=1 https://github.com/BoringCat/luci-app-mentohust
 git clone --depth=1 https://github.com/kuoruan/luci-app-kcptun
 git clone --depth=1 https://github.com/jerrykuku/luci-app-ttnode
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff
-git clone --depth=1 https://github.com/xiaozhuai/luci-app-filebrowser
 popd
