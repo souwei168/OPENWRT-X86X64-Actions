@@ -32,7 +32,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom/g' feeds/luci/collecti
 # 修改连接数数
 sed -i 's/net.netfilter.nf_conntrack_max=.*/net.netfilter.nf_conntrack_max=65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
 
-#修正连接数（by ベ七秒鱼ベ）
+#修正连接数
 sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
 
 # themes添加（svn co 命令意思：指定版本如https://github）
