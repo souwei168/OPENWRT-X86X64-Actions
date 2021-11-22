@@ -36,8 +36,8 @@ sed -i 's/net.netfilter.nf_conntrack_max=.*/net.netfilter.nf_conntrack_max=65535
 sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
 
 #删除 luci-app-qbittorrent  不知道为什么有他无法编译成功
-rm -rf package/lean/luci-app-qbittorrent
-rm -rf package/lean/qBittorrent
+#rm -rf package/lean/luci-app-qbittorrent
+#rm -rf package/lean/qBittorrent
 
 # themes添加（svn co 命令意思：指定版本如https://github）
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
@@ -69,5 +69,5 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
 git clone --depth=1 https://github.com/vernesong/OpenClash
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-adguardhome
 git clone --depth=1 https://github.com/riverscn/openwrt-iptvhelper
-git clone --depth=1 https://github.com/hyy-666/luci-app-qBittorrent-enhanced
+#git clone --depth=1 https://github.com/hyy-666/luci-app-qBittorrent-enhanced
 popd
