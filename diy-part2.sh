@@ -19,8 +19,7 @@ sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_gener
 # 修改输出文件名
 sed -i 's/IMG_PREFIX:=$(VERSION_DIST_SANITIZED)/IMG_PREFIX:=full-$(shell date +%Y%m%d)-$(VERSION_DIST_SANITIZED)/g' include/image.mk
 
-# 修改系统版本号/系统名
-sed -i 's/DISTRIB_DESCRIPTION='OpenWrt '/DISTRIB_DESCRIPTION='CNCTION TEL:18923707332 '/g' package/lean/default-settings/files/zzz-default-settings
+# 修改系统版本号
 pushd package/lean/default-settings/files
 sed -i '/http/d' zzz-default-settings
 export orig_version="$(cat "zzz-default-settings" | grep DISTRIB_REVISION= | awk -F "'" '{print $2}')"
