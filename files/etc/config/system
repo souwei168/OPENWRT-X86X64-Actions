@@ -1,6 +1,6 @@
 
 config system
-	option hostname 'CNCTION TEL:18923707332'
+	option hostname 'fro BIGDONGDONG'
 	option ttylogin '0'
 	option log_size '64'
 	option urandom_seed '0'
