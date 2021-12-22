@@ -1,6 +1,6 @@
 
 config system
-	option hostname 'nervefrog '
+	option hostname 'CncTion'
 	option ttylogin '0'
 	option log_size '64'
 	option urandom_seed '0'
