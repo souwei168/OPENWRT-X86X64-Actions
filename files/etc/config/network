@@ -26,12 +26,10 @@ config interface 'wan'
 
 config interface 'wan6'
 	option proto 'dhcpv6'
+	option ifname 'eth0'
 	option reqaddress 'try'
 	option reqprefix 'auto'
-	option _orig_ifname 'eth0'
-	option _orig_bridge 'false'
-	option ifname '@wan'
-
+	
 config interface 'VPN'
 	option ifname 'ipsec0'
 	option proto 'static'
