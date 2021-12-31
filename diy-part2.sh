@@ -69,7 +69,7 @@ git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
 git clone --depth=1 https://github.com/vernesong/OpenClash
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-adguardhome
 git clone --depth=1 https://github.com/riverscn/openwrt-iptvhelper
-#git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
+git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
 #git clone --depth=1 https://github.com/hyy-666/luci-app-qBittorrent-enhanced
 #git clone --depth=1 https://github.com/sirpdboy/luci-app-poweroffdevice
 popd
