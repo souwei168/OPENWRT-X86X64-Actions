@@ -72,6 +72,7 @@ git clone --depth=1 https://github.com/riverscn/openwrt-iptvhelper
 git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
 git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb
 git clone --depth=1 https://github.com/tianiue/luci-app-bypass
+git clone --depth=1 https://github.com/iwrt/luci-app-ikoolproxy
 #git clone --depth=1 https://github.com/hyy-666/luci-app-qBittorrent-enhanced
 #git clone --depth=1 https://github.com/sirpdboy/luci-app-poweroffdevice
 popd
