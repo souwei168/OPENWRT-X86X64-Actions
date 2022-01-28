@@ -46,8 +46,8 @@ rm openwrt/package/lean/luci-theme-argon -rf
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
-
-# Add luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/siropboy/mypackages package/mypackages
 git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
@@ -77,11 +77,6 @@ git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb
 git clone --depth=1 https://github.com/tianiue/luci-app-bypass
 git clone --depth=1 https://github.com/iwrt/luci-app-ikoolproxy
 git clone --depth=1 https://github.com/yuos-bit/luci-app-openclash
-git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon
 #git clone --depth=1 https://github.com/hyy-666/luci-app-qBittorrent-enhanced
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff
-popd
-#加入新插件
-pushd package
-git clone --depth=1 git clone https://github.com/siropboy/sirpdboy-package
 popd
