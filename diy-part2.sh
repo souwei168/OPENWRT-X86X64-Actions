@@ -80,4 +80,5 @@ git clone --depth=1 https://github.com/yuos-bit/luci-app-openclash
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon
 #git clone --depth=1 https://github.com/hyy-666/luci-app-qBittorrent-enhanced
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff
+git clone --depth=1 git clone https://github.com/siropboy/sirpdboy-package
 popd
