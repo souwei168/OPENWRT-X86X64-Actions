@@ -47,7 +47,7 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/siropboy/mypackages package/mypackages
+git clone https://github.com/souwei168/mypackages.git package/mypackages
 git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
