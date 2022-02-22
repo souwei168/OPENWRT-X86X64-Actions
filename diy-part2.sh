@@ -52,7 +52,7 @@ git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dns
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
 #添加额外非必须软件包
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+#git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
