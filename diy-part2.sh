@@ -85,4 +85,5 @@ git clone --depth=1 https://github.com/kenzok78/luci-app-netspeedtest
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 git clone --depth=1 https://github.com/hubbylei/luci-app-passwall
 git clone --depth=1 https://github.com/nickilchen/luci-app-socat
+git clone --depth=1 https://github.com/garypang13/luci-theme-edge
 popd
