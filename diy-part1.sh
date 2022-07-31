@@ -15,7 +15,7 @@
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src/gz openwrt_kiddin9 https://op.supes.top/packages/x86_64' >>feeds.conf.default
+echo 'src-git openwrt_kiddin9 https://op.supes.top/packages/x86_64' >>feeds.conf.default
 #加入 DDNSTO到feeds配置文件里
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
