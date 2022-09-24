@@ -32,15 +32,8 @@ sed -i 's/luci-theme-bootstrap/luci-theme-infinityfreedom/g' feeds/luci/collecti
 # 修改连接数数
 sed -i 's/net.netfilter.nf_conntrack_max=.*/net.netfilter.nf_conntrack_max=65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
 
-#修正连接数
-sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
-
 #替换为 JerryKuKu 的 Argon
 rm openwrt/package/lean/luci-theme-argon -rf
-
-#删除 luci-app-qbittorrent  不知道为什么有他无法编译成功
-#rm -rf package/lean/luci-app-qbittorrent
-#rm -rf package/lean/qBittorrent
 
 # themes添加（svn co 命令意思：指定版本如https://github）
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
